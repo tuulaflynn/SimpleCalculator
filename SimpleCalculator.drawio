@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" modified="2023-07-25T15:39:54.715Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="DH3taME6kK-OEG1HKop2" version="21.6.5" type="device">
+  <diagram name="Page-1" id="iaZ8SFnZD06CJIBgPHiG">
+    <mxGraphModel dx="1276" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6XTKAwnIMPZA9dCHUfGT-1" value="SimpleCalculator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="70" width="200" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="6XTKAwnIMPZA9dCHUfGT-2" value="&lt;i&gt;- num1: double&lt;br&gt;- num2: double [used this a local variables for each method]&lt;/i&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="6XTKAwnIMPZA9dCHUfGT-1">
+          <mxGeometry y="26" width="200" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="6XTKAwnIMPZA9dCHUfGT-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="6XTKAwnIMPZA9dCHUfGT-1">
+          <mxGeometry y="170" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="6XTKAwnIMPZA9dCHUfGT-4" value="+ add(double, double): double&lt;br&gt;+ sub(double, double): double&lt;br&gt;+ div(double, double): double&lt;br&gt;+ multiply(double, double): double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="6XTKAwnIMPZA9dCHUfGT-1">
+          <mxGeometry y="178" width="200" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="6XTKAwnIMPZA9dCHUfGT-6" value="App" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="70" width="190" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="6XTKAwnIMPZA9dCHUfGT-7" value="&lt;i&gt;- userChoice: int [didn&#39;t use in this class, used in class containing main]&lt;br&gt;&lt;br&gt;- num1: double&lt;br&gt;- num2: double [these were in the other class in the main method]&lt;/i&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="6XTKAwnIMPZA9dCHUfGT-6">
+          <mxGeometry y="26" width="190" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="6XTKAwnIMPZA9dCHUfGT-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="6XTKAwnIMPZA9dCHUfGT-6">
+          <mxGeometry y="170" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="6XTKAwnIMPZA9dCHUfGT-9" value="- menuOptions(): int&lt;br&gt;- operand1User(): double&lt;br&gt;- operand2User(): double&lt;br&gt;- exitMessage(): String&lt;br&gt;- &lt;i&gt;userStringInput(): String&lt;/i&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="6XTKAwnIMPZA9dCHUfGT-6">
+          <mxGeometry y="178" width="190" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="6XTKAwnIMPZA9dCHUfGT-10" value="KEY:&lt;br&gt;italic means I changed it&lt;br&gt;after I&#39;d starting writing the code&lt;br&gt;&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="80" width="190" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
